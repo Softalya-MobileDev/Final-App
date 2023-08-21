@@ -1,0 +1,27 @@
+[
+    {
+      "addressID": "1",
+      "userID": "123456",
+      "addressName": "Ev Adresi",
+      "address": {
+        "street": "Örnek Sokak",
+        "neighborhood": "Örnek Mahalle",
+        "district": "Örnek İlçe",
+        "city": "Örnek İl",
+        "postalCode": "12345"
+      }
+    },
+    {
+      "addressID": "2",
+      "userID": "789012",
+      "addressName": "İş Adresi",
+      "address": {
+        "street": "Başka Sokak",
+        "neighborhood": "Başka Mahalle",
+        "district": "Başka İlçe",
+        "city": "Başka İl",
+        "postalCode": "67890"
+      }
+    }
+  ]
+  
