@@ -1,0 +1,35 @@
+[
+    {
+        "userIDpassword": 1,
+        "ePosta": "1",
+        "password": "1",
+        "phoneNumber ": "0555555555"
+    },
+    {
+        "userIDpassword": 2,
+        "ePosta": "eposta",
+        "password": "123456",
+        "phoneNumber ": "0555555555"
+
+    },{
+        "userIDpassword": 3,
+        "ePosta": "ender@gmail.com",
+        "password": "asddsa",
+        "phoneNumber ": "0555555555"
+        
+    },
+    {
+        "userIDpassword": 4,
+        "ePosta": "ender@gmail.com",
+        "password": "asddsa",
+        "phoneNumber ": "0555555555"
+
+    },{
+        "userIDpassword": 5,
+        "ePosta": "",
+        "password": "",
+        "phoneNumber ": "8052"
+
+    }
+  ]
+  
