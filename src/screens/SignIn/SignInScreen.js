@@ -16,6 +16,7 @@ const SignInScreen = () => {
 const dispatch = useDispatch();
 const loading = useSelector((state) => state.login.loading);
 
+// const [email, setEmail] = useState('');
 const [username, setUsername] = useState('');
 const [password, setPassword] = useState('');
 const [error, setError] = useState('');
@@ -32,7 +33,7 @@ const onSignInPressed = async () => {
     }catch(error){
         //console.error(error) //olursa hata kontrol
         dispatch(loginFailure());
-        setError('Invalid Username or Password');
+        setError('Invalid Email or Password');
     }
 };
 const onForgotPassword = () => {
@@ -47,11 +48,13 @@ return (
     <View style ={styles.root}> 
         <Image style = {styles.logo} source={Logo} resizeMode='contain'/>    
         <CustomInput 
-            placeholder='Username' //can be used as email
+            value={username}
+            placeholder='Email' //can be used as email
             setValue={setUsername}
             error={error}
         />
         <CustomInput 
+            value={password}
             placeholder='Password' 
             setValue={setPassword}
             secureTextEntry

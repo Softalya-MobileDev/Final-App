@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://fakestoreapi.com/users'});
+  baseURL: 'http://192.168.178.184:5000'});
 
 export const loginApi = (username, password) => {
-  return instance.post('https://fakestoreapi.com/auth/login', { username, password });
+  return instance.post(`${baseURL}/login`, { email: username, password });
 };

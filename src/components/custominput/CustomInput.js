@@ -6,6 +6,7 @@ const CustomInput = ({
   setValue,
   placeholder,
   secureTextEntry,
+  value,
   error,
   }) => {
 return (
@@ -15,6 +16,7 @@ return (
         onChangeText={setValue} 
         placeholder={placeholder}
         secureTextEntry={secureTextEntry}
+        value={value}
         style={[styles.input,
           error ?{borderColor: 'red', borderWidth: 1, borderRadius:5}  : null 
         ]} 
